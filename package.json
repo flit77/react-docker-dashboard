@@ -14,6 +14,8 @@
     "node-pre-gyp": "^0.6.34"
   },
   "devDependencies": {
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
     "concurrently": "^3.4.0",
     "nodemon": "^1.11.0",
     "react": "^15.5.3",
