@@ -1,0 +1,11 @@
+{
+  "name": "docker-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/flit77/react-docker-dashboard.git",
+  "author": "Vasiliy Shubko <flit77@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
