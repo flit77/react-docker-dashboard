@@ -12,10 +12,12 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "express": "^4.15.2",
+    "lodash": "^4.17.4",
     "node-pre-gyp": "^0.6.34"
   },
   "devDependencies": {
     "@types/classnames": "^0.0.32",
+    "@types/lodash": "^4.14.62",
     "@types/react": "^15.0.21",
     "@types/react-dom": "^0.14.23",
     "concurrently": "^3.4.0",
