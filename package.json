@@ -11,15 +11,19 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "dockerode": "^2.4.3",
     "express": "^4.15.2",
     "lodash": "^4.17.4",
-    "node-pre-gyp": "^0.6.34"
+    "node-pre-gyp": "^0.6.34",
+    "socket.io": "^1.7.3"
   },
   "devDependencies": {
     "@types/classnames": "^0.0.32",
     "@types/lodash": "^4.14.62",
     "@types/react": "^15.0.21",
     "@types/react-dom": "^0.14.23",
+    "@types/socket.io": "^1.4.29",
+    "@types/socket.io-client": "^1.4.29",
     "concurrently": "^3.4.0",
     "nodemon": "^1.11.0",
     "react": "^15.5.3",
