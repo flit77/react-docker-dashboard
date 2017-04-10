@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack -p && node server.js",
-    "start-dev": "./node_modules/.bin/concurrently 'nodemon server.js' 'webpack --watch'"
+    "dev": "./node_modules/.bin/concurrently 'nodemon server.js' 'webpack --watch'"
   },
   "dependencies": {
     "classnames": "^2.2.5",
