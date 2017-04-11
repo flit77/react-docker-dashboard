@@ -20,7 +20,8 @@ export class ContainerListItem extends React.Component<Container, {}> {
     }
 
     onActionButtonClick() {    
-        socket.emit('container.start', { id: this.props.id })
+        const evt = this.isRunning() ? 'container.stop' : 'container.start'
+        socket.emit(evt, { id: this.props.id })
     }
 
     render() {
