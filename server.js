@@ -29,7 +29,7 @@ io.on('connection', socket => {
             container.start((err, data) => refreshContainers())
         }
     })
-    
+
     socket.on('container.stop', args => {
         const container = docker.getContainer(args.id)
 
@@ -38,6 +38,8 @@ io.on('connection', socket => {
         }
     })
 })
+
+setInterval(refreshContainers, 2000)
 
 function refreshContainers() {
     docker.listContainers({ all: true}, (err, containers) => {
