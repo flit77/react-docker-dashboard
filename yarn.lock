@@ -2,9 +2,19 @@
 # yarn lockfile v1
 
 
+"@types/bootstrap@^3.3.32":
+  version "3.3.32"
+  resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-3.3.32.tgz#abaf4b364d086de0cb7791db0cfd55703b591fad"
+  dependencies:
+    "@types/jquery" "*"
+
 "@types/classnames@^0.0.32":
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-0.0.32.tgz#449abcd9a826807811ef101e58df9f83cfc61713"
+
+"@types/jquery@*", "@types/jquery@^2.0.41":
+  version "2.0.41"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-2.0.41.tgz#b87ba051011f99edbe586d8f97282e7786e01a6d"
 
 "@types/lodash@^4.14.62":
   version "4.14.62"
